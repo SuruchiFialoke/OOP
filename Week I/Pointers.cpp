@@ -12,10 +12,9 @@ using namespace std;
 /*
 The following example illustrates how pointers are used in C++
 Note the usage of signs * (points to) and & (address of)
-
-Shembulli i meposhtem ilustron perdorimin e treguesve (pointers)
-ne C++. Vereni se si perdoren shenjat * (tregon ne) dhe & (adresa e)
 */
+
+
 int main()
 {
 	int valueA = 33;

@@ -14,13 +14,6 @@ The function will simply double all values of the array.
 Note that this behaviour differs from the traditional handling of primitive types 
 (int, float, double...). It seems like the array is passed by reference and not by
 value (even though we do not use the & symbol before the parameter). Why?
-
-Ky funksion ilustron sjelljen e C++ kur vargu eshte parameter hyres ne funksion. 
-Funksioni do te dyfishoje te gjithe vlerat e vargut.
-Do te vereni se sjellja ndryshon nga menyra tradicionale kur parameter hyres jane 
-variabla primitive (int, float, double). Ne keto raste rezultati duket sikur vargu
-percillet me reference dhe jo me vlere (Edhe pse nuk perdorim simbolin & para 
-parametrit). Pse?
 */
 void increment_values(int array[], int nr_values)
 {

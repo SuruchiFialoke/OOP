@@ -1,0 +1,50 @@
+Sum when passing the array in a traditional fashion: 	51
+Sum when passing the array as a pointer: 	51
+
+Printing the values of the array:
+5, 5, 5, 6, 7, 8, 3, 4, 5, 
+
+Printing the values of the array after calling the function:
+10, 10, 10, 12, 14, 16, 6, 8, 10, 
+
+
+Values of variables inside the function swap
+Variable a=20
+Variable b=15
+
+Values of variables after swaping
+Variable a=15
+Variable b=20
+
+Values of variables after calling the swap_by_value function
+Variable a=20
+Variable b=15
+
+Values of variables inside the function swap
+Variable a=20
+Variable b=15
+
+Values of variables after swaping
+Variable a=15
+Variable b=20
+
+Values of variables after calling the swap_by_reference function
+Variable a=15
+Variable b=20
+
+Value of variable A is: 33
+Value of variable B is: 74
+=========================================================
+
+Address of variable A is: 0x7fff5ee0a7ac
+Address of variable B is: 0x7fff5ee0a7a8
+=========================================================
+
+Pointer A points to : 0x7fff5ee0a7ac
+Pointer B points to : 0x7fff5ee0a7a8
+=========================================================
+
+Value  of address location where pointer A points is: 33
+Value  of address location where pointer B points is: 74
+=========================================================
+

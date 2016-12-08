@@ -13,12 +13,9 @@ This function will accept an array, and return the sum of all
 values from that array.
 The array is passed in a traditional form. Note that the length 
 of the array is not defined in the entry parameter.
-
-Ky funksion pranon nje varg, dhe kthen shumen e gjithe vlerave nga 
-vargu. Vargu i jepet funksionit si parameter hyres ne forme 
-tradicionale. Shenim: gjatesia e vargut nuk definohet gjate deklarimit
-te parametrit. 
 */
+
+
 int sum_traditional(int grades[], int nr_of_grades)
 {
 	int sum = 0;
@@ -31,15 +28,10 @@ int sum_traditional(int grades[], int nr_of_grades)
 
 /*
 This function will accept an array, and return the sum of all
-values from that array.
-The array is passed as a pointer. Note that the length
+values from that array.The array is passed as a pointer. Note that the length
 of the array is not defined in the entry parameter.
-
-Ky funksion pranon nje varg, dhe kthen shumen e gjithe vlerave nga
-vargu. Vargu i jepet funksionit si parameter hyres ne forme
-te pointerit. Shenim: gjatesia e vargut nuk definohet gjate deklarimit
-te parametrit.
 */
+
 int sum_pointer_pass(int *grades, int nr_of_grades)
 {
 	int sum = 0;
